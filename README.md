@@ -18,10 +18,10 @@
 
   Ex: ActiveMemberStorage index -> 4 is removed First According to Json String. RemovedMemberStorage will contains index value of 4 at first element of its array. This is for time-space trade off for removing array and reshifting all data and hashing keys.
 
-- Ouput.txt (Sample file above has written data) will be written with Active members information.
+- Ouput.txt _(Sample file above has written data)_ will be written with Active members information.
 
 - Stack Interface
 
-- log.txt (Sample File above has written data) contain every actions performed on Json Strings' KV pairs.
+- log.txt _(Sample File above has written data)_ contain every actions performed on Json Strings' KV pairs.
 
 - Main.java contains a very large "findData" function which performs on every strings which are cut off from "{"  to "}". This function will separate every word between two quotes "" and check every variable and perform necessary actions such as success of each string will be written on output and every error or success of getting data from Json KV pairs will be writted on log.txt. Please refer comment lines for code implementations and log file for some possible errors. 
