@@ -2,7 +2,7 @@
 **_Custom Json Parsing Program (Data Structure Project 1 - Fall 2018)_**
 
 # PROJECT 1 ___________ PARSING STRING 
-## (Some code templates are from provided by Prof)
+###### (Some code templates are provided by Prof) 
 
 - Array Stack Implement Stack and Perform Push,Pop and adjust Size.
 
