@@ -1,0 +1,7 @@
+_________ List of Active Members ___________
+
+1 -> 10000005 <> George Smith <> Chemical Engineering <> null(Not Set)
+2 -> 1002140004 <> Kate Winslet <> Biology <> null(Not Set)
+3 -> 10000010 <> James Smith <> Nursing <> null(Not Set)
+4 -> 10000007 <> George Davis <> Business <> null(Not Set)
+__________ End of List ____________

@@ -1,0 +1,32 @@
+__________ Lists of Parsing Actions__________
+
+1 -> Hashing Done ->For String < "type":"ADD","ID":"10000005","firstName":"George","lastName":"Smith","major":"Chemical Engineering"
+2 -> ADDED new Member to ArrayList  ->Index of KV = 10>>>10000005 <> George Smith <> Chemical Engineering <> null(Not Set) Hashed Value >>>> 0
+3 -> String, < "tpe":"ADD","ID":"10000064","firstName":"James","lastName":"Taylor","major":"Environmental" >is not Valid. There is no "Type" Key
+4 -> Hashing Done ->For String < "type":"ADD","ID":"10000004","firstName":"George","lastName":"Williams","major":"Business"
+5 -> ADDED new Member to ArrayList  ->Index of KV = 10>>>10000004 <> George Williams <> Business <> null(Not Set) Hashed Value >>>> 1
+6 -> NO MEMBER-ID found for String"type":"MOD","firstName":"Nancy","lastName":"Williams","VIP":"true"
+7 -> Command, <TRY>not recognized for <"type":"TRY","firstName":"Nancy","lastName":"Williams","VIP":"true">
+8 -> NO MEMBER-ID found for String"type":"TRY","firstName":"Nancy","lastName":"Williams","VIP":"true"
+9 -> MemberID already Not exists. (Suggested Command Key \"ADD\")"  ->For String < "type":"DEL","ID":"10000010"
+10 -> NO MEMBER-ID found for String"type":"DEL","ID":"10000010"
+11 -> NO MEMBER-ID found for String"type":"MOD","firstName":"James","lastName":"Taylor","VIP":"true"
+12 -> MemberID already exists. (Suggested Command Key \"ADD\")"  ->For String < "type":"MOD","ID":"10000010","VIP":"true"
+13 -> KV PAIRS STRING CORRUPTED.
+14 -> ID not in Number Format  ->For String < "type":"MOD","ID":"100T0010","VIP":"true"
+15 -> KV PAIRS STRING CORRUPTED.
+16 -> MemberID already exists. (Suggested Command Key \"MOD\")"  ->For String < "type":"ADD","ID":"10000004","firstName":"Nancy","lastName":"Jones","major":"Biology"
+17 -> KV PAIRS STRING CORRUPTED.
+18 -> NO MEMBER-ID found for String"type":"MOD","firstName":"Mary","lastName":"Moore","VIP":"true"
+19 -> Hashing Done ->For String < "type":"ADD","ID":"10000010","firstName":"James","lastName":"Smith","major":"Nursing"
+20 -> ADDED new Member to ArrayList  ->Index of KV = 10>>>10000010 <> James Smith <> Nursing <> null(Not Set) Hashed Value >>>> 2
+21 -> REMOVED Hashing Index  ->For ID < 10000004
+22 -> REMOVED Member from ArrayList  ->For Index < 1
+23 -> ID not in Number Format  ->For String < "type":"DEL","ID":"10000004","major":"Business"
+24 -> NO MEMBER-ID found for String"type":"DEL","ID":"10000004","major":"Business"
+25 -> NO MEMBER-ID found for String"type":"ADD","firstName":"Taylor","lastName":"Swift","VIP":"true"
+26 -> Hashing Done ->For String < "type":"ADD","ID":"1002140004","firstName":"Kate","lastName":"Winslet","major":"Biology"
+27 -> ADDED new Member to ArrayList  ->Index of KV = 10>>>1002140004 <> Kate Winslet <> Biology <> null(Not Set) Hashed Value >>>> 1
+28 -> Hashing Done ->For String < "type":"ADD","ID":"10000007","firstName":"George","lastName":"Davis","major":"Business"
+29 -> ADDED new Member to ArrayList  ->Index of KV = 10>>>10000007 <> George Davis <> Business <> null(Not Set) Hashed Value >>>> 3
+__________ End of List ____________

@@ -1,0 +1,20 @@
+{"commands":[
+
+{"type":"ADD","ID":"10000005","firstName":"George","lastName":"Smith","major":"Chemical Engineering"}
+,{"tpe":"ADD","ID":"10000064","firstName":"James","lastName":"Taylor","major":"Environmental"}
+,{"type":"ADD","ID":"10000004","firstName":"George","lastName":"Williams","major":"Business"}
+,{"type":"MOD","firstName":"Nancy","lastName":"Williams","VIP":"true"}
+,{"type":"TRY","firstName":"Nancy","lastName":"Williams","VIP":"true"}
+,{"type":"DEL","ID":"10000010"}
+,{"type":"MOD","firstName":"James","lastName":"Taylor","VIP":"true"}
+,{"type":"MOD","ID":"10000010","VIP":"true"}
+,{"type":"MOD","ID":"100T0010","VIP":"true"}
+,{"type":"ADD","ID":"10000004","firstName":"Nancy","lastName":"Jones","major":"Biology"}
+,{"type":"MOD","firstName":"Mary","lastName":"Moore","VIP":"true"}
+,{"type":"ADD","ID":"10000010","firstName":"James","lastName":"Smith","major":"Nursing"}
+,{"type":"DEL","ID":"10000004","major":"Business"}
+,{"type":"ADD","firstName":"Taylor","lastName":"Swift","VIP":"true"}
+,{"type":"ADD","ID":"1002140004","firstName":"Kate","lastName":"Winslet","major":"Biology"}
+,{"type":"ADD","ID":"10000007","firstName":"George","lastName":"Davis","major":"Business"}
+
+]}
