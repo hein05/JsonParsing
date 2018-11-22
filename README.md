@@ -25,3 +25,4 @@
 - log.txt _(Sample File above has written data)_ contain every actions performed on Json Strings' KV pairs.
 
 - Main.java contains a very large "findData" function which performs on every strings which are cut off from "{"  to "}". This function will separate every word between two quotes "" and check every variable and perform necessary actions such as success of each string will be written on output and every error or success of getting data from Json KV pairs will be writted on log.txt. Please refer comment lines for code implementations and log file for some possible errors. 
+![](https://imgur.com/fRBMB7C.gif)
